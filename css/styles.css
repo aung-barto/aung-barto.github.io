@@ -1,0 +1,52 @@
+body {
+  margin: 0px;
+}
+
+@font-face {
+  font-family: "Lato-Light";
+  src: url(./fonts/lato/Lato-Light.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Lato-Regular";
+  src: url(./fonts/lato/Lato-Regular.ttf) format("truetype");
+}
+.menu {
+  position: absolute;
+  width: 100px;
+  height: auto;
+  top: 90px;
+  left: 0px;
+  padding: 0 0 0 30px;
+  /*background-color: yellow;*/
+}
+
+ul {
+  list-style: none;
+}
+
+.main {
+  position: absolute;
+  left: 100px;
+  padding-left: 50px;
+}
+
+h3{
+  font-family: 'Lato-Light';
+  font-size: 10px;
+}
+
+.links {
+  font-family: 'Lato-Regular';
+  font-size: 12px;
+  color: grey;
+}
+
+.links:hover{
+  color: black;
+}
+
+p,a {
+  font-family: 'Lato-Regular';
+  font-size: 12px;
+  color: #000000;
+}
