@@ -13,15 +13,15 @@ body {
 .menu {
   position: absolute;
   width: 100px;
-  height: auto;
-  top: 90px;
+  height: 100%;
   left: 0px;
-  padding: 0 0 0 30px;
-  /*background-color: yellow;*/
+  padding: 0 0 0 27px;
+  background-color: #ffd700;
 }
 
 ul {
   list-style: none;
+  margin: 105px 0 0 0;
 }
 
 .main {
