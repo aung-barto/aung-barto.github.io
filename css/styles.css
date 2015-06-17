@@ -10,24 +10,35 @@ body {
   font-family: "Lato-Regular";
   src: url(./fonts/lato/Lato-Regular.ttf) format("truetype");
 }
-.menu {
-  position: absolute;
-  width: 100px;
+.name {
+  position: relative;
+
+}
+.nav {
+/*  width: 100px;*/
+  position: relative;
   height: 100%;
   left: 0px;
   padding: 0 0 0 27px;
   background-color: #ffd700;
 }
+.menu {
+
+}
 
 ul {
   list-style: none;
-  margin: 105px 0 0 0;
+  margin: 87px 0 0 30px;
 }
 
 .main {
-  position: absolute;
-  left: 100px;
-  padding-left: 50px;
+  position: relative;
+  left: 0px;
+  margin-left: 0px;
+  border-left-width: 30px;
+  padding-left: 40px;
+  bottom: 0px;
+  background-color: lightblue;
 }
 
 h3{
@@ -50,4 +61,13 @@ p,a {
   font-family: 'Lato-Regular';
   font-size: 12px;
   color: #000000;
+}
+
+@media #{$small-and-down} {
+  font-size: 8px;
+}
+@media #{$medium-and-down} {
+  h3{
+    font-size: 9px
+  }
 }
