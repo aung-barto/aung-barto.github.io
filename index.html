@@ -12,8 +12,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/css/materialize.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/js/materialize.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
-  <!-- JS -->
-  <!--<script rel="javascript" href="script.js"></script> -->
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="./images/icon.png" />
   <title>Aung Barteaux</title>
@@ -26,27 +24,40 @@
   <div class="col s12 m3 l2 nav">
     <ul class="menu">
       <li><h6 id="myname">AUNG BARTEAUX</h6></li>
-      <li><p class="links" id="aboutme">ABOUT ME</p></li>
-      <li><a href="http://104.236.106.226:4567/" target="_blank" class="links" id="puncher">PUNCHER</a></li>
-      <li><a href="http://104.236.106.226:1234/" target="_blank" class="links" id="thainer">THAINER</a></li>
-      <li><a href="http://104.236.106.226:1111/" target="_blank" class="links" id="wikasia">WIKASIA</a></li>
-      <li><a href="https://github.com/aung-barto" target="_blank" class="links" id="github">GITHUB</a></li>
+      <li><p class="links" id="aboutme">ABOUT</p></li>
+      <li><p class="links" id="thainer">THAINER</p></li>
+      <li><p class="links" id="wikasia">WIKASIA</p></li>
+      <li><p class="links" id="puncher">PUNCHER</p></li>
     </ul>
   </div>
   <div class="col s12 m8 l10 offset-l2" id="about">
-    <div id="about-div" style="display: none">
-      <p id="about-text">Aung is a front-end web developer and designer. Originally from Thailand, she has fallen in love with Brooklyn and has called it her home. When she's not coding or doodling around she enjoys runnning, boxing, swimming and baking.</p>
-      <p class="text" id="contact">aungwaran (at) gmail (dot) com</p> 
+    <div id="about-div" class="hide">
+      <p id="about-text">Aung is a former architect diving into the web development world. Originally from Thailand, she has fallen in love with Brooklyn and has called it her home. When she's not coding or doodling around she enjoys runnning, boxing, swimming and baking.</p><br>
+      <p>contact</p>
+      <a href="./pdf/resume.pdf" class="links" target="_blank">resume</a>
+      <a href="https://github.com/aung-barto" target="_blank" class="links" id="github">github</a>
+      <a href="mailto:aungwaran@gmail.com">aungwaran@gmail.com</a>
     </div>
-    <div id="puncher-img">
+    <div id="puncher-show" class="hide">
+      <img src="./images/puncher_index.png" class="image">
       <div class="project-info">
-        <p class="pro-title">PUNCHER</p>
+        <a href="http://104.236.106.226:4567/" target="_blank" class="pro-title">PUNCHER</a>
         <p class="pro-text">a fun and simple whack-a-mole style game. Player has to keep moles away from the target with in 30 seconds in order to see and save his/her score.</p>
       </div>
     </div>
-    <div id="thainer-img" style="display: none">
+    <div id="thainer-show" class="hide">
+      <img src="./images/thainer_index.png" class="image">
+      <div class="project-info">
+        <a href="http://104.236.106.226:1234/" target="_blank" class="pro-title">THAINER</a>
+        <p class="pro-text">a single page web application for a restaurant.</p>
+      </div>
     </div>
-    <div id="wikasia-img" style="display: none">
+    <div id="wikasia-show" class="hide">
+      <img src="./images/wikasia_index.png" class="image">
+      <div class="project-info">
+        <a href="http://104.236.106.226:1111/" target="_blank" class="pro-title">WIKASIA</a>
+        <p class="pro-text">plan your trip to southeast Asia like a pro. Share with others what you have seen.</p>
+      </div>
     </div>
   </div>
 </div>
@@ -55,5 +66,13 @@
     
   </div>
 </div> -->
+ 
+  <!-- JS -->
+  <script src="script.js"></script>
 </body>
 </html>
+
+<!-- <li><a href="http://104.236.106.226:1234/" target="_blank" class="links" id="thainer">THAINER</a></li>
+<li><a href="http://104.236.106.226:1111/" target="_blank" class="links" id="wikasia">WIKASIA</a></li>
+<li><a href="http://104.236.106.226:4567/" target="_blank" class="links" id="puncher">PUNCHER</a></li>
+<li><a href="https://github.com/aung-barto" target="_blank" class="links" id="github">GITHUB</a></li> -->

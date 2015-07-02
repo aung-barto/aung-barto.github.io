@@ -10,6 +10,14 @@ body {
   font-family: "Lato-Regular";
   src: url(./fonts/lato/Lato-Regular.ttf) format("truetype");
 }
+@font-face {
+  font-family: "ARSMaquettePro-Regular";
+  src: url(./fonts/ARSMaquettePro/ARSMaquettePro-Regular.otf) format("opentype");
+}
+@font-face {
+  font-family: "ARSMaquettePro-Medium";
+  src: url(./fonts/ARSMaquettePro/ARSMaquettePro-Medium.otf) format("opentype");
+}
 .nav {
   position: absolute;
   height: 100%;
@@ -26,31 +34,21 @@ body {
   top: 118px;
   padding-left: 30px;
 }
-#about-text {
+#about-div {
+  position: relative;
+  top: 15px;
   width: 500px;
 }
 .menu {
-  padding-top: 104px;
+  padding-top: 50px;
   margin-left: 50px;
 }
-#puncher-img {
-  background-image: url("../images/puncher_index.png");
-  background-size: cover;
+.image {
   width: 752.4px;
   height: 422.4px;
   position: relative;
-  top: 15px;
+  top: 25px;
   left: 0px;
-}
-
-#thainer-img {
-  background-image: url("../images/thainer_img.png");
-  background-size: cover;
-  width: 620px;
-  height: 350px;
-  position: relative;
-  top: 15px;
-  left: 190px;
 }
 
 ul {
@@ -98,6 +96,7 @@ p,a {
 .project-info{
   position: relative;
   left: 800px;
+  bottom: 410px;
   width: 150px;
 }
 .pro-title{
@@ -110,20 +109,21 @@ p,a {
   font-size: 10px;
   margin-top: 0px;
 }
+
+.hide{
+  display: none;
+}
+
 @media (min-width: 992px) {
   h6#myname{
     font-size: 10px;
+    margin-bottom: 60px;
   }
- 
 }
 
 @media (max-width: 992px) {
   h6 {
     font-size: 2.9rem;
-  }
-
-  .links {
-    
   }
 }
 

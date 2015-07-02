@@ -1,0 +1,66 @@
+%!Adobe-FontList 1.14
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ARSMaquettePro-Italic
+FamilyName:ARS Maquette Pro
+StyleName:Regular Italic
+MenuName:ARS Maquette Pro
+StyleBits:1
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:ARS Maquette Pro Italic
+WritingScript:Roman
+OutlineFileName:\ARSMaquettePro-Italic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:228204
+FileModTime:1435517362
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ARSMaquettePro-Medium
+FamilyName:ARS Maquette Pro
+StyleName:Medium
+MenuName:ARS Maquette Pro Light
+StyleBits:2
+WeightClass:500
+WidthClass:5
+AngleClass:0
+FullName:ARS Maquette Pro Medium
+WritingScript:Roman
+OutlineFileName:\ARSMaquettePro-Medium.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:188020
+FileModTime:1435517362
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ARSMaquettePro-Regular
+FamilyName:ARS Maquette Pro
+StyleName:Regular
+MenuName:ARS Maquette Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:ARS Maquette Pro Regular
+WritingScript:Roman
+OutlineFileName:\ARSMaquettePro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:188096
+FileModTime:1435517364
+%EndFont
+
