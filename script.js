@@ -23,3 +23,8 @@ $("#wikasia").click(function(){
   active.toggleClass("hide show");
   $("#wikasia-show").toggleClass("hide show");
 });
+
+$("#myname").click(function(){
+  var active = $(".show");
+  active.toggleClass("hide show");
+})
