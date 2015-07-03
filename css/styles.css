@@ -163,6 +163,9 @@ p,a {
     width: 300px;
     height: auto;
   }
+  a.links{
+    padding: 0 10px 0 10px;
+  }
   .nav {
     display: none;
   }
