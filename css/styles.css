@@ -81,6 +81,7 @@ ul {
 .links:hover{
   color: black;
 }
+
 #text {
   letter-spacing: 1px;
 }
@@ -126,11 +127,11 @@ p,a {
   }
 }
 
-@media (max-width: 992px) {
+/*@media (max-width: 992px) {
   h6 {
     font-size: 2.9rem;
   }
-}
+}*/
 
 @media (max-width: 600px) {
   #phone{
@@ -143,7 +144,20 @@ p,a {
   p{
     font-size: 0.6rem;
   }
-
+  ul{
+    margin:1.5rem 0 1.4rem 0;
+  }
+  li.p-nav{
+    font-size: 0.6rem;
+    display: inline;
+    color: grey;
+  }
+  li.p-nav:hover{
+    color: black;
+  }
+  p#p-short{
+    width: 250px;
+  }
   .phone-image{
     position: relative;
     width: 300px;
@@ -151,12 +165,5 @@ p,a {
   }
   .nav {
     display: none;
-  }
-  .main {
-    position: relative;
-    text-align: center;
-    padding-left: 0px;
-    line-height: 6px;
-    top: 420px;
   }
 }

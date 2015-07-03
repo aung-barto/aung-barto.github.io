@@ -27,4 +27,14 @@ $("#wikasia").click(function(){
 $("#myname").click(function(){
   var active = $(".show");
   active.toggleClass("hide show");
+});
+
+$("#p-about").click(function(){
+  $(".projects").hide();
+  $("#p-text").show();
+});
+
+$("#p-works").click(function(){
+  $(".projects").show();
+  $("#p-text").hide();
 })
