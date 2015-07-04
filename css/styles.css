@@ -1,5 +1,5 @@
 body {
-  margin: 0px;
+  margin: 0;
 }
 
 @font-face {
@@ -22,12 +22,7 @@ body {
   position: absolute;
   height: 100%;
   left: 0px;
-  padding: 100px 0 0 27px;
-  /*background-color: #ffd700;*/
-}
-#name {
-  position: absolute;
-  padding-left: 30px;
+  /*padding: 50px 0 0 27px;*/
 }
 #about{
   position: absolute;
@@ -35,21 +30,21 @@ body {
   padding-left: 30px;
 }
 #about-div {
-  position: relative;
-  top: 15px;
-  width: 500px;
+  margin-top: 130px;
+}
+#about-box{
+  background-color: red;
 }
 .menu {
   position: fixed;
-  padding-top: 50px;
-  margin-left: 50px;
+  padding: 50px 0 0 20px;
+  margin-left: 0px;
+  background-color: #ffd700;
 }
-.image {
-  width: 752.4px;
-  height: 422.4px;
-  position: relative;
-  top: 25px;
-  left: 0px;
+.test{
+  padding-top: 140px;
+}
+.responsive-img {
   padding-bottom: 30px;
 }
 
@@ -82,10 +77,6 @@ ul {
   color: black;
 }
 
-#text {
-  letter-spacing: 1px;
-}
-
 h6{
   font-family: 'Lato-Light';
   letter-spacing: 2px;
@@ -95,12 +86,16 @@ p,a {
   font-size: 10px;
   color: #000000;
 }
+#myname{
+  font-size: 10px;
+  margin-bottom: 60px;
+}
 
 .project-info{
   position: fixed;
-  right: 70px;
   top: 135px;
-  width: 150px;
+  padding-left: 50px;
+  width: 200px;
 }
 .pro-title{
   font-family: 'Lato-Regular';
@@ -118,20 +113,17 @@ p,a {
 }
 
 @media (min-width: 992px) {
-  h6#myname{
-    font-size: 10px;
-    margin-bottom: 60px;
-  }
   #phone{
     display: none;
   }
 }
 
-/*@media (max-width: 992px) {
-  h6 {
-    font-size: 2.9rem;
-  }
-}*/
+@media (max-width: 992px) {
+/*  h6#myname{
+    font-size: 10px;
+    margin-bottom: 60px;
+  }*/
+}
 
 @media (max-width: 600px) {
   #phone{

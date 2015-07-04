@@ -18,14 +18,14 @@
 </head>
 <body>
 <div class="row">
-  <div class="col s12" id="phone">
+  <div class="col s12 hide-on-med-and-up" id="phone">
     <h6 id="phone-name">AUNG BARTEAUX</h6>
     <ul>
       <li class="p-nav" id="p-about">ABOUT</li>
       <li class="p-nav" id="p-works">WORKS</li>
     </ul>
-    <div id="p-text" style="display:none">
-      <center><p id="p-short">Aung is a former architect diving into the web development world. Originally from Thailand, she has fallen in love with Brooklyn and has called it her home. When she's not coding or doodling around she enjoys runnning, boxing, swimming and baking.</p></center>
+    <div id="p-text" class="valign-wrapper" style="display:none">
+      <p id="p-short" class="valign">Aung is a former architect diving into the web development world. Originally from Thailand, she has fallen in love with Brooklyn and has called it her home. When she's not coding or doodling around she enjoys runnning, boxing, swimming and baking.</p>
       <a href="./pdf/resume.pdf" class="links" target="_blank">resume</a>
       <a href="https://github.com/aung-barto" target="_blank" class="links" id="github">github</a>
       <p>aungwaran@gmail.com</p>
@@ -40,51 +40,63 @@
     </div>
   </div>
   <!-- </div> -->
-  <div class="col s12 m3 l2 nav">
-    <ul class="menu">
-      <li><h6 id="myname">AUNG BARTEAUX</h6></li>
-      <li><p class="links" id="aboutme">ABOUT</p></li>
-      <li><p class="links" id="thainer">THAINER</p></li>
-      <li><p class="links" id="wikasia">WIKASIA</p></li>
-      <li><p class="links" id="puncher">PUNCHER</p></li>
-    </ul>
-  </div>
-  <div class="col s12 m8 l10 offset-l2" id="about">
-    <div id="about-div" class="hide">
-      <p id="about-text">Aung is a former architect diving into the web development world. Originally from Thailand, she has fallen in love with Brooklyn and has called it her home. When she's not coding or doodling around she enjoys runnning, boxing, swimming and baking.</p><br>
-      <p>contact</p>
-      <a href="./pdf/resume.pdf" class="links" target="_blank">resume</a>
-      <a href="https://github.com/aung-barto" target="_blank" class="links" id="github">github</a>
-      <a href="mailto:aungwaran@gmail.com">aungwaran@gmail.com</a>
+  <div class="hide-on-small-only">
+    <div class="col s12 m3 l2 nav">
+      <ul class="menu">
+        <li><h6 id="myname">AUNG BARTEAUX</h6></li>
+        <li><p class="links" id="aboutme">ABOUT</p></li>
+        <li><p class="links" id="thainer">THAINER</p></li>
+        <li><p class="links" id="wikasia">WIKASIA</p></li>
+        <li><p class="links" id="puncher">PUNCHER</p></li>
+      </ul>
     </div>
-    <div id="puncher-show" class="hide">
-      <img src="./images/puncher/puncher_index.png" class="image">
-      <img src="./images/puncher/puncher_game.png" class="image">
-      <img src="./images/puncher/puncher_timesup.png" class="image">
-      <img src="./images/puncher/puncher_gameover.png" class="image">
-      <div class="project-info">
+    <!-- <div class="col s12 m8 l10 offset-l2" id="about"> -->
+    <div id="about-div" class="hide">
+      <div class="col m7 l8 offset-m3 offset-l2" id="about-box"> 
+        <p id="about-text">Aung is a former architect diving into the web development world. Originally from Thailand, she has fallen in love with Brooklyn and has called it her home. When she's not coding or doodling around she enjoys runnning, boxing, swimming and baking.</p><br>
+        <p>contact</p>
+        <a href="./pdf/resume.pdf" class="links" target="_blank">resume</a>
+        <a href="https://github.com/aung-barto" target="_blank" class="links" id="github">github</a>
+        <a href="mailto:aungwaran@gmail.com">aungwaran@gmail.com</a>
+      </div>
+    </div>
+
+    <div id="puncher-show" class="test hide">
+      <div class="col m7 l8 offset-m3 offset-l2 images">
+        <img src="./images/puncher/puncher_index.png" class="responsive-img">
+        <img src="./images/puncher/puncher_game.png" class="responsive-img">
+        <img src="./images/puncher/puncher_timesup.png" class="responsive-img">
+        <img src="./images/puncher/puncher_gameover.png" class="responsive-img">
+      </div>
+      <div class="col m2 offset-m10 project-info">
         <a href="http://104.236.106.226:4567/" target="_blank" class="pro-title">PUNCHER</a>
         <p class="pro-text">a fun and simple whack-a-mole style game. Player has to keep moles away from the target with in 30 seconds in order to see and save his/her score.</p>
       </div>
     </div>
-    <div id="thainer-show" class="hide">
-      <img src="./images/thainer/thainer_index.png" class="image">
-      <img src="./images/thainer/thainer_menu_show.png" class="image">
-      <img src="./images/thainer/thainer_menu.png" class="image">
-      <img src="./images/thainer/thainer_dish.png" class="image">
-      <img src="./images/thainer/thainer_edit.png" class="image">
-      <div class="project-info">
+
+    <div id="thainer-show" class="test hide">
+      <div class="col m7 l8 offset-m3 offset-l2 images">
+        <img src="./images/thainer/thainer_index.png" class="responsive-img">
+        <img src="./images/thainer/thainer_menu_show.png" class="responsive-img">
+        <img src="./images/thainer/thainer_menu.png" class="responsive-img">
+        <img src="./images/thainer/thainer_dish.png" class="responsive-img">
+        <img src="./images/thainer/thainer_edit.png" class="responsive-img">
+      </div>
+      <div class="col m2 offset-m10 project-info">
         <a href="http://104.236.106.226:1234/" target="_blank" class="pro-title">THAINER</a>
         <p class="pro-text">a single page web application for a restaurant.</p>
       </div>
     </div>
-    <div id="wikasia-show" class="hide">
-      <img src="./images/wikasia/wikasia_index.png" class="image">
-      <img src="./images/wikasia/wikasia_dish.png" class="image">
-      <img src="./images/wikasia/wikasia_newart.png" class="image">
-      <img src="./images/wikasia/wikasia_authors.png" class="image">
-      <img src="./images/wikasia/wikasia_newaut.png" class="image">
-      <div class="project-info">
+
+    <div id="wikasia-show" class="test hide">
+      <div class="col m7 l8 offset-m3 offset-l2 images">
+        <img src="./images/wikasia/wikasia_index.png" class="responsive-img">
+        <img src="./images/wikasia/wikasia_dish.png" class="responsive-img">
+        <img src="./images/wikasia/wikasia_newart.png" class="responsive-img">
+        <img src="./images/wikasia/wikasia_authors.png" class="responsive-img">
+        <img src="./images/wikasia/wikasia_newaut.png" class="responsive-img">
+      </div>
+      <div class="col m2 offset-m10 project-info">
         <a href="http://104.236.106.226:1111/" target="_blank" class="pro-title">WIKASIA</a>
         <p class="pro-text">plan your trip to southeast Asia like a pro. Share with others what you have seen.</p>
       </div>
@@ -101,8 +113,3 @@
   <script src="script.js"></script>
 </body>
 </html>
-
-<!-- <li><a href="http://104.236.106.226:1234/" target="_blank" class="links" id="thainer">THAINER</a></li>
-<li><a href="http://104.236.106.226:1111/" target="_blank" class="links" id="wikasia">WIKASIA</a></li>
-<li><a href="http://104.236.106.226:4567/" target="_blank" class="links" id="puncher">PUNCHER</a></li>
-<li><a href="https://github.com/aung-barto" target="_blank" class="links" id="github">GITHUB</a></li> -->

@@ -29,6 +29,7 @@ $("#myname").click(function(){
   active.toggleClass("hide show");
 });
 
+// phone mode
 $("#p-about").click(function(){
   $(".projects").hide();
   $("#p-text").show();
