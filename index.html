@@ -9,8 +9,6 @@
   <!-- JQuery -->
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <!-- Materialize JS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/css/materialize.min.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/js/materialize.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="./images/icon.png" />
@@ -18,30 +16,38 @@
 </head>
 <body>
 <div class="row">
+  <!-- <div id="top" class="frame"></div>
+  <div id="right" class="frame"></div>
+  <div id="bottom" class="frame"></div>
+  <div id="left" class="frame"></div> -->
+<!-- phone -->
   <div class="col s12 hide-on-med-and-up" id="phone">
     <h6 id="phone-name">AUNG BARTEAUX</h6>
     <ul>
       <li class="p-nav" id="p-about">ABOUT</li>
       <li class="p-nav" id="p-works">WORKS</li>
     </ul>
-    <div id="p-text" class="valign-wrapper" style="display:none">
-      <p id="p-short" class="valign">Aung is a former architect diving into the web development world. Originally from Thailand, she has fallen in love with Brooklyn and has called it her home. When she's not coding or doodling around she enjoys runnning, boxing, swimming and baking.</p>
-      <a href="./pdf/resume.pdf" class="links" target="_blank">resume</a>
-      <a href="https://github.com/aung-barto" target="_blank" class="links" id="github">github</a>
-      <p>aungwaran@gmail.com</p>
+    <div id="p-text" style="display:none">
+      <p id="p-short">Aung is a former architect diving into the web development world. Originally from Thailand, she has fallen in love with Brooklyn and has called it her home. When she's not coding or doodling around she enjoys runnning, boxing, swimming and baking. She is currently exploring ReactJS with Ruby on Rails and personal publishing platforms.</p></br>
+      <div>
+        <a href="./pdf/resume.pdf" class="links" target="_blank">resume</a>
+        <a href="https://github.com/aung-barto" target="_blank" class="links" id="github">github</a>
+        <p>aungwaran@gmail.com</p>
+      </div>
     </div>
     <div class="projects">
       <p>THAINER</p>
-      <img src="./images/thainer/thainer.gif" class="phone-image">
+      <img src="./images/thainer/thainer.gif" class="phone-image card-panel">
       <p>WIKASIA</p>
-      <img src="./images/wikasia/wikasia.gif" class="phone-image">
+      <img src="./images/wikasia/wikasia.gif" class="phone-image card-panel">
       <p>PUNCHER</p>
-      <img src="./images/puncher/puncher.gif" class="phone-image">
+      <img src="./images/puncher/puncher.gif" class="phone-image card-panel">
     </div>
   </div>
-  <!-- </div> -->
+<!-- large screen -->
   <div class="hide-on-small-only">
-    <div class="col s12 m3 l2 nav">
+    <div class="col s12 m3 l2 nav" style="padding-left: 0px;
+  padding-right: 0px;">
       <ul class="menu">
         <li><h6 id="myname">AUNG BARTEAUX</h6></li>
         <li><p class="links" id="aboutme">ABOUT</p></li>
@@ -50,29 +56,17 @@
         <li><p class="links" id="puncher">PUNCHER</p></li>
       </ul>
     </div>
-    <!-- <div class="col s12 m8 l10 offset-l2" id="about"> -->
-    <div id="about-div" class="hide">
-      <div class="col m7 l8 offset-m3 offset-l2" id="about-box"> 
+    <div class="col s12 m5 l4 offset-m3 offset-l2" id="about">
+      <div id="about-div" class="hide">
+      <!-- <div class="col m7 l8 offset-m3 offset-l2" id="about-box"> --> 
         <p id="about-text">Aung is a former architect diving into the web development world. Originally from Thailand, she has fallen in love with Brooklyn and has called it her home. When she's not coding or doodling around she enjoys runnning, boxing, swimming and baking.</p><br>
         <p>contact</p>
         <a href="./pdf/resume.pdf" class="links" target="_blank">resume</a>
         <a href="https://github.com/aung-barto" target="_blank" class="links" id="github">github</a>
-        <a href="mailto:aungwaran@gmail.com">aungwaran@gmail.com</a>
+        <a href="mailto:aungwaran@gmail.com" class="links" id="email">aungwaran@gmail.com</a>
       </div>
     </div>
 
-    <div id="puncher-show" class="test hide">
-      <div class="col m7 l8 offset-m3 offset-l2 images">
-        <img src="./images/puncher/puncher_index.png" class="responsive-img">
-        <img src="./images/puncher/puncher_game.png" class="responsive-img">
-        <img src="./images/puncher/puncher_timesup.png" class="responsive-img">
-        <img src="./images/puncher/puncher_gameover.png" class="responsive-img">
-      </div>
-      <div class="col m2 offset-m10 project-info">
-        <a href="http://104.236.106.226:4567/" target="_blank" class="pro-title">PUNCHER</a>
-        <p class="pro-text">a fun and simple whack-a-mole style game. Player has to keep moles away from the target with in 30 seconds in order to see and save his/her score.</p>
-      </div>
-    </div>
 
     <div id="thainer-show" class="test hide">
       <div class="col m7 l8 offset-m3 offset-l2 images">
@@ -101,6 +95,20 @@
         <p class="pro-text">plan your trip to southeast Asia like a pro. Share with others what you have seen.</p>
       </div>
     </div>
+
+    <div id="puncher-show" class="test hide">
+      <div class="col m7 l8 offset-m3 offset-l2 images">
+        <img src="./images/puncher/puncher_index.png" class="responsive-img">
+        <img src="./images/puncher/puncher_game.png" class="responsive-img">
+        <img src="./images/puncher/puncher_timesup.png" class="responsive-img">
+        <img src="./images/puncher/puncher_gameover.png" class="responsive-img">
+      </div>
+      <div class="col m2 offset-m10 project-info">
+        <a href="http://104.236.106.226:4567/" target="_blank" class="pro-title">PUNCHER</a>
+        <p class="pro-text">a fun and simple whack-a-mole style game. Player has to keep moles away from the target with in 30 seconds in order to see and save his/her score.</p>
+      </div>
+    </div>
+
   </div>
 </div>
 <!-- <div class="row">

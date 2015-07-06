@@ -1,1 +1,1 @@
-Site is currently under construction. Thanks for visiting.
+Visit my site at [abarto.co](http://abarto.co)
