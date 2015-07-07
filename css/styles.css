@@ -1,34 +1,3 @@
-body {
- /* background-color: yellow;*/
-}
-#top,#right,#left,#bottom{
-  position: fixed;
-  z-index: 100;
-  background-color: grey;
-}
-#top{
-  top:0;
-}
-#right{
-  right:0;
-}
-#left{
-  left:0;
-}
-#bottom{
-  bottom:0;
-}
-#right, #left{
-  top:0;
-  bottom: -10em;
-  padding-bottom: 10em;
-  width: 1em;
-}
-#top,#bottom{
-  left:0;
-  right:0;
-  height: 1em;
-}
 @font-face {
   font-family: "NewsGothicLight";
   src: url(../font/NewsGothic/News-Gothic-Light.ttf) format("truetype");
@@ -56,9 +25,10 @@ body {
   position: fixed;
   padding: 50px 0 0 20px;
   margin-left: 0px;
+  cursor: pointer;
   /*background-color: #ffd700;*/
 }
-.test{
+.test, .hello{
   padding-top: 140px;
 }
 .responsive-img {
@@ -90,7 +60,7 @@ ul {
 }
 
 .links:hover{
-  color: black;
+  color: #ff8ea9;
 }
 
 h6{
@@ -155,7 +125,7 @@ p,a {
     color: grey;
   }
   li.p-nav:hover{
-    color: black;
+    color: #ff8ea9;
   }
   p#p-short{
     margin: 0 63px 0 63px;
