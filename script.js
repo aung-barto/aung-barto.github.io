@@ -30,8 +30,10 @@ $("#wikasia").click(function(){
 
 $("#myname").click(function(){
   var active = $(".show");
+  $(".hello").toggleClass("hide show");
   active.toggleClass("hide show");
 });
+
 
 // phone mode
 $("#p-about").click(function(){

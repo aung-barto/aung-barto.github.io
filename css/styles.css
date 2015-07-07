@@ -28,7 +28,7 @@
   cursor: pointer;
   /*background-color: #ffd700;*/
 }
-.test, .hello{
+.test, #hello-img{
   padding-top: 140px;
 }
 .responsive-img {
@@ -61,6 +61,9 @@ ul {
 
 .links:hover{
   color: #ff8ea9;
+}
+h6#myname:hover{
+  color:#5bffda;
 }
 
 h6{
