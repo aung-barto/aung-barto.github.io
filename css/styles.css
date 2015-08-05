@@ -133,6 +133,9 @@ p,a {
   p#p-short{
     margin: 0 63px 0 63px;
   }
+  p#p-extra{
+    margin:8px 63px 0 63px;
+  }
   .phone-image{
     position: relative;
     width: 300px;
