@@ -28,6 +28,13 @@ $("#wikasia").click(function(){
   $("#wikasia-show").toggleClass("hide show");
 });
 
+$("#trekabilly").click(function(){
+  var active = $(".show");
+  active.toggleClass("hide show");
+  $('html,body').scrollTop(0);
+  $("#trekabilly-show").toggleClass("hide show");
+});
+
 $("#myname").click(function(){
   var active = $(".show");
   $(".hello").toggleClass("hide show");
