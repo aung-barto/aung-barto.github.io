@@ -62,7 +62,7 @@ ul {
 
 .links,li {
   font-family: 'ARSMaquettePro-Regular', 'Helvetica', 'Arial', 'sans-serif';
-  font-size: 11px;
+  font-size: 12px;
   letter-spacing: 1px;
   padding: 2px 10px 2px 0;
   margin: 0 0 0 0;
@@ -82,7 +82,7 @@ h5{
 }
 p,a {
   font-family: 'ARSMaquettePro-Regular', 'Helvetica', 'Arial', 'sans-serif';
-  font-size: 11px;
+  font-size: 12px;
   color: #000000;
 }
 p.notes {
@@ -90,7 +90,7 @@ p.notes {
   color: #000000;
 }
 #myname{
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 1px;
   margin-bottom: 60px;
 }
