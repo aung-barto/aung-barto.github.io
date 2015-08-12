@@ -31,7 +31,7 @@
 .menu {
   position: fixed;
   padding: 50px 0 0 20px;
-  margin-left: 0px;
+  margin-left: 10px;
   cursor: pointer;
   /*background-color: #ffd700;*/
 }
@@ -42,7 +42,7 @@
 }
 .responsive-img {
   margin: 10px 0 30px 0;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.2);
 }
 
 ul {
