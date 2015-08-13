@@ -86,8 +86,7 @@ p,a {
   color: #000000;
 }
 p.notes {
-  font-size:10px;
-  color: #000000;
+  color: #9a9a9a;
 }
 #myname{
   font-size: 16px;
@@ -109,7 +108,7 @@ p.notes {
 .pro-text{
   font-family: 'ARSMaquettePro-Regular', 'Helvetica', 'Arial', 'sans-serif';
   font-size: 12px;
-  margin-top: 0px;
+  margin-top: 10px;
   width:500px;
 }
 
