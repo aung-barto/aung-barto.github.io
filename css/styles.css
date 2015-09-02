@@ -14,20 +14,10 @@
   padding-left: 10px;
   padding-right: 0px;
 }
-#about{
-  position: absolute;
-  top: 23px;
-  padding-left: 30px;
-}
-#about-div {
-  margin-top: 130px;
-}
-#about-box{
-  background-color: red;
-}
-.icons {
-  height:25px;
-}
+#about{position: absolute; top: 23px; padding-left: 30px;}
+#about-div {margin-top: 130px;}
+#about-box{background-color: red;}
+.icons {height:25px;}
 .menu {
   position: fixed;
   padding: 50px 0 0 20px;
@@ -35,20 +25,10 @@
   cursor: pointer;
   /*background-color: #ffd700;*/
 }
-.test, #hello-img{
-  position: relative;
-  top:140px;
-  
-}
-.responsive-img {
-  margin: 10px 0 30px 0;
-  box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.2);
-}
+.test, #hello-img{position: relative; top:140px;}
+.responsive-img {margin: 10px 0 30px 0; box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.2);}
 
-ul {
-  list-style: none;
-  margin: 0 0 0 70px;
-}
+ul {list-style: none; margin: 0 0 0 70px;}
 
 .main {
   position: relative;
@@ -69,88 +49,41 @@ ul {
   color: grey;
 }
 
-.links:hover{
-  color: #ff8ea9;
-}
-h5#myname:hover{
-  color:#5bffda;
-}
+.links:hover{color: #ff8ea9;}
+h5#myname:hover{color:#5bffda;}
 
 h5{
   font-family: 'ARSMaquettePro-Medium', 'Helvetica', 'Arial', 'sans-serif';
   letter-spacing: 2px;
 }
-p,a {
-  font-family: 'ARSMaquettePro-Regular', 'Helvetica', 'Arial', 'sans-serif';
-  font-size: 12px;
-  color: #000000;
-}
-p.notes {
-  color: #9a9a9a;
-}
-#myname{
-  font-size: 16px;
-  letter-spacing: 1px;
-  margin-bottom: 60px;
-}
+p,a {font-family: 'ARSMaquettePro-Regular', 'Helvetica', 'Arial', 'sans-serif'; font-size: 12px; color: #000000;}
+p.notes {color: #9a9a9a;}
+#myname{font-size: 16px; letter-spacing: 1px; margin-bottom: 60px;}
 
-.project-info{
-  position: relative;
-  top: 10px;
-  /*width: 500px;*/
-}
+.project-info{position: relative; top: 10px;}
 .pro-title{
   font-family: 'ARSMaquettePro-Regular', 'Helvetica', 'Arial', 'sans-serif';
   font-size: 12px;
   letter-spacing: 1px;
   margin-bottom: 0px;
 }
-.pro-text{
-  font-family: 'ARSMaquettePro-Regular', 'Helvetica', 'Arial', 'sans-serif';
-  font-size: 12px;
-  margin-top: 10px;
-  width:500px;
-}
+.pro-text{font-family: 'ARSMaquettePro-Regular', 'Helvetica', 'Arial', 'sans-serif'; font-size: 12px; margin-top: 10px; width:500px;}
 
-.hide{
-  display: none;
-}
+.hide{display: none;}
 
 @media (min-width: 992px) {
-  #phone{
-    display: none;
-  }
+  #phone{display: none;}
 }
 
 @media (max-width: 600px) {
-  #phone{
-    text-align: center;
-  }
-  h5#phone-name{
-    font-size: 1.2rem;
-    margin: 2.5rem 0 1.4rem 0;
-  }
-  p{
-    font-size: 0.9rem;
-    margin-bottom: 0px;
-  }
-  ul{
-    margin:1.5rem 0 1.4rem 0;
-  }
-  li.p-nav{
-    font-size: 0.9rem;
-    display: inline;
-    color: grey;
-  }
-  li.p-nav:hover{
-    color: #ff8ea9;
-  }
-  p#p-short{
-    margin: 0 40px 0 40px;
-  }
-  p#p-extra{
-    margin:8px 40px 0 40px;
-  }
+  #phone{text-align: center;}
+  h5#phone-name{font-size: 1.2rem; margin: 2.5rem 0 1.4rem 0;}
+  p{font-size: 0.9rem; margin-bottom: 0px;}
+  ul{margin:1.5rem 0 1.4rem 0;}
+  li.p-nav{font-size: 0.9rem; display: inline; color: grey;}
+  li.p-nav:hover{color: #ff8ea9;}
+  p#p-short{margin: 0 40px 0 40px;}
+  p#p-extra{margin:8px 40px 0 40px;}
   .phone-image{
     position: relative;
     width: 300px;
@@ -162,12 +95,6 @@ p.notes {
     padding-bottom: 0px;
     padding-left: 0px;
   }
-  a.links{
-    padding: 0 10px 0 10px;
-  }
-  a#email{
-  }
-  .nav {
-    display: none;
-  }
+  a.links{padding: 0 10px 0 10px;}
+  .nav {display: none;}
 }
